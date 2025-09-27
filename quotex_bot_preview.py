@@ -1,11 +1,13 @@
-# quotex_bot_preview.py
-import streamlit as st
+# quotex_bot_preview_fixed.py
+
+import streamlit as st  # Must be first
+st.set_page_config(page_title="Quotex Bot Preview", layout="wide")
+
 import pandas as pd
 import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Quotex Bot Preview", layout="wide")
 st.title("Quotex Bot Preview - Live Signal Simulation")
 
 # Sidebar settings
